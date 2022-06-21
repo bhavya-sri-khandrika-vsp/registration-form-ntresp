@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,300;1,400&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 20px;
+}
+
+.intro{
+    font-size: 40px;
+    color: blueviolet;
+}
+
+.form2{
+   
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    
+
+}
+
+#firstname, #lastname, #emailid, #msgtxt{
+    padding: 3px;
+    border-radius: 10px;
+    border: 1px solid #560673;
+    
+}
+
+#con, #sup{
+    padding-left: 40px;
+    padding-right: 40px;
+    border: #560673 3px solid;
+    border-radius: 10px;
+    background-color: bisque;
+    color: #560673;
+    font-size: 15px;
+}
+
+#con:hover{
+    transform: scale(1.3); 
+}
+
+.form3{
+    border: #560673 2px solid;
+   
+}
+
+.required{
+    color: red;
+}
